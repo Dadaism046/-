@@ -51,5 +51,4 @@ if __name__ == '__main__':
     browser = MyWindow(url)
     browser.show()
     
-    sys.exit(app.exec_())
-    #javascript: goPageHTML(6)
+
