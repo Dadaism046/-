@@ -46,8 +46,8 @@ class MyWindow(QMainWindow):
 if __name__ == '__main__':
     import sys
     app = QApplication(sys.argv)
-    url = QUrl("http://oa.zs.zj.com.yc/zsportal/portal/more.psml?MORE_IDS=sjcms_8&TEMPLATE=cmsMore")
-    #url = QUrl(r"C:\Users\Dada\DesktopC:\Users\Dada\Desktop\htmlyc.htm")
+    url = QUrl("")
+    #url = QUrl(r"")
     browser = MyWindow(url)
     browser.show()
     
